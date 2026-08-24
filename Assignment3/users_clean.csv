@@ -1,0 +1,6 @@
+username,department,access_level
+alice.k,engineering,poweruser
+bob.m,finance,readonly
+carol.d,engineering,poweruser
+dave.s,,readonly
+eve.n,marketing,invalid_level
