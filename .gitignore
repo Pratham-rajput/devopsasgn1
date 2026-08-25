@@ -1,0 +1,32 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/tfplan
+terraform/tfplan.json
+terraform/backup.json
+terraform/plan.txt
+terraform/*.tfvars
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Secrets / credentials
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
