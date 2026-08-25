@@ -1,0 +1,20 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# AWS credentials / private keys
+*.pem
+*.key
+credentials
+.aws/
+
+# OS/editor files
+.DS_Store
+*.swp
+
